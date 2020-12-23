@@ -25,9 +25,9 @@ module Webspicy
 
         def after_each_done
           if tester.test_case.counterexample?
-            @examples_count += 1
-          else
             @counterexamples_count += 1
+          else
+            @examples_count += 1
           end
           @assertions_count += tester.result.assertions_count
           @errors_count += tester.result.errors_count
