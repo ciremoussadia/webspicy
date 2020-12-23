@@ -11,8 +11,6 @@ PATH
       path (~> 2.0)
       rack-robustness (~> 1.1, >= 1.1.0)
       rack-test (~> 0.6.3)
-      rspec (~> 3.10)
-      rspec_junit_formatter (~> 0.4.1)
 
 GEM
   remote: https://rubygems.org/
@@ -98,6 +96,8 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 12)
+  rspec (~> 3.10)
+  rspec_junit_formatter (~> 0.4.1)
   sinatra (~> 2)
   webspicy!
 

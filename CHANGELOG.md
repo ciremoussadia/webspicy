@@ -8,6 +8,12 @@
   Errconditions are postconditions that are met when the test
   item is called while at least on precondition is violated.
 
+* RSpec is no longer used to run the test suite. Webspicy now
+  has its own test engine. The aim is to provide test suite
+  reporting appearing more natural in a techno-agnotic setting.
+  In particular, no stacktrace is shown for errors and failures
+  that do not involve user-specific ruby code.
+
 # 0.16.3 - 2020/12/18
 
 * Fix RobustToInvalidInput to include empty params as valid

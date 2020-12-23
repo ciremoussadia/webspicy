@@ -11,8 +11,6 @@ PATH
       path (~> 2.0)
       rack-robustness (~> 1.1, >= 1.1.0)
       rack-test (~> 0.6.3)
-      rspec (~> 3.10)
-      rspec_junit_formatter (~> 0.4.1)
 
 GEM
   remote: https://rubygems.org/
@@ -24,7 +22,6 @@ GEM
     commonmarker (0.21.0)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.7)
-    diff-lcs (1.4.4)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     ffi (1.13.1)
@@ -64,21 +61,6 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (12.3.3)
-    rspec (3.10.0)
-      rspec-core (~> 3.10.0)
-      rspec-expectations (~> 3.10.0)
-      rspec-mocks (~> 3.10.0)
-    rspec-core (3.10.0)
-      rspec-support (~> 3.10.0)
-    rspec-expectations (3.10.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
-    rspec-mocks (3.10.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
-    rspec-support (3.10.0)
-    rspec_junit_formatter (0.4.1)
-      rspec-core (>= 2, < 4, != 2.12.0)
     ruby-enum (0.8.0)
       i18n
     ruby2_keywords (0.0.2)
